@@ -1,0 +1,114 @@
+.todo-app {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+  }
+
+  
+  
+  .todo-app h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .input-section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .input-section input,
+  .input-section select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .input-section button {
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .input-section button:hover {
+    background-color: #218838;
+  }
+  
+  .task-list {
+    margin-top: 20px;
+  }
+  
+  .task-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    background-color: white;
+  }
+  
+  .task-list li.completed .task-text span {
+    text-decoration: line-through;
+    color: gray;
+  }
+  
+  .task-list li .task-text {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .task-list li .task-text span {
+    flex: 1;
+  }
+  
+  .task-list li .task-details {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .task-list li .priority.low {
+    color: #28a745;
+  }
+  
+  .task-list li .priority.medium {
+    color: #ffc107;
+  }
+  
+  .task-list li .priority.high {
+    color: #dc3545;
+  }
+  
+  .task-list li .due-date {
+    font-size: 12px;
+    color: #666;
+  }
+  
+  .task-list li .category {
+    font-size: 12px;
+    color: #007bff;
+  }
+  
+  .task-list li button {
+    padding: 5px 10px;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .task-list li button:hover {
+    background-color: #c82333;
+  }
+  
